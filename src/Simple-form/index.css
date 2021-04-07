@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(0, 54, 251, 0.762), rgb(147, 0, 181));
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(66, 66, 66);
+  font-weight: 600;
+  font-family: sans-serif;
+  overflow: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 2rem;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: beige;
+  font-size: 1.4rem;
+}
+.navbar ul li {
+  padding: 0.6rem 1.2rem;
+}
+
+.navbar a:hover {
+  color: rgb(255, 127, 127);
+}
+
+.form {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  display: block;
+  margin-top: 2rem;
+  width: 100%;
+  outline: none;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
+}
+
+form button {
+  color: black;
+  display: flex;
+  margin: auto;
+  margin-top: 1rem;
+  background: rgb(150, 149, 149);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.7rem;
+  outline: none;
+  border: 2px solid orange;
+}
+
+form button:hover {
+  background: orange;
+  color: white;
+}
+
+#output {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: auto;
+  min-height: 400px;
+  width: 60%;
+}
+
+#output .inside {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#output input {
+  width: 150px;
+  outline: none;
+  padding: 0.1rem 0.2rem;
+  background: transparent;
+  color: white;
+}
+.button_box {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.input_Box {
+  display: flex;
+  flex-direction: row;
+}
+
+#output button {
+  padding: 0.2rem 0.4rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+}
+.inside .one {
+  background: rgb(98, 126, 0);
+}
+
+.inside .three {
+  background: rgb(224, 65, 65);
+  margin-left: 0.2rem;
+}
